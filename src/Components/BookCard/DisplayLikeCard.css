@@ -1,0 +1,10 @@
+.liked-books-container {
+    margin-top: 20px;
+  }
+  
+  .liked-books-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  

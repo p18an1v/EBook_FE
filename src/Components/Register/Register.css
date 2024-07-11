@@ -1,0 +1,70 @@
+/* Center the register card */
+.register-container {
+  min-height: 100vh;
+  height: 650px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Register card styling */
+.register-card {
+  width: 500px; /* Increased max width */
+ 
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Form input styling */
+.register-input {
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Button styling */
+.register-button {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Additional custom styles */
+.card-body {
+  padding: 2rem;
+}
+
+h2, h3 {
+  color: #343a40;
+}
+
+@media (max-width: 576px) {
+  .register-card {
+    padding: 1.5rem;
+    width: 600px; /* Ensuring full width on smaller screens */
+  }
+
+  .register-input {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  .register-button {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+}
+

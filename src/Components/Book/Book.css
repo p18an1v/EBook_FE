@@ -1,0 +1,22 @@
+.book-management-container {
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 4px 4px 4px;
+} 
+
+.table-actions {
+  display: flex;
+  gap: 10px; /* Adjust the gap value as needed */
+}

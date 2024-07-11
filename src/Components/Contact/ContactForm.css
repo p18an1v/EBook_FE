@@ -1,0 +1,28 @@
+.contact-form-container {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid #e3e3e3;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
+button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+    font-size: 1rem;
+}

@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/* HomePage.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+/* Ensure similar setup in index.css and App.css if needed */

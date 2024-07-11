@@ -1,0 +1,89 @@
+/* .author-publisher-management-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .add-entity-button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-entity-button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }
+   */
+   .full-page-container {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .content-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button.back-to-book-button {
+    margin-bottom: 1rem;
+  }
+  
+  button.add-entity-button {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 2rem;
+  }
+  
+ 
+  .btn-sm {
+    padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+    min-width: auto; /* Ensure buttons don't stretch unnecessarily */
+    max-width: 100px; /* Set a maximum width for consistency */
+  }
+  
+  

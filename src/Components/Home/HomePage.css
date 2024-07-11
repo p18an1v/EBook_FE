@@ -1,0 +1,94 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* General styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* CustomBox */
+.custom-box {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Use spacing as per your design */
+  padding-top: 80px; /* Adjust padding as per your design */
+  background-color: orange;
+}
+
+@media (max-width: 960px) {
+  .custom-box {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+}
+
+/* BoxText */
+.box-text {
+  flex: 1;
+  padding-left: 64px;
+}
+
+@media (max-width: 960px) {
+  .box-text {
+      flex: 2;
+      text-align: center;
+      padding-left: 16px;
+      padding-right: 16px;
+  }
+}
+
+/* CustomTypography */
+.custom-typography {
+  font-size: 1.1rem;
+  text-align: start;
+  line-height: 1.5;
+  color: #515151;
+  margin-top: 1.5rem;
+}
+
+/* StyledToolbar */
+.styled-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ListMenu */
+.list-menu {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .list-menu {
+      display: flex;
+  }
+}
+
+/* Other custom styles */
+.header-img {
+  width: 100%;
+  margin-bottom: -15px;
+}

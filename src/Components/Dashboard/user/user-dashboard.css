@@ -1,0 +1,40 @@
+.carousel-custom .carousel-item img {
+  height: 500px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.book-list .g-2 .col {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard-container {
+  min-height: 100vh; /* Ensure the dashboard fills the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-grow-1 {
+  flex-grow: 1; /* Ensure the main content area grows to fill remaining space */
+  min-height: 0; /* Override any inherited min-height */
+}
+
+.book-list {
+  min-height: 400px; /* Set a minimum height for the book list */
+  flex-grow: 1;
+}
+
+.loading-container {
+  height: 400px; /* Match the height of the book list */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
